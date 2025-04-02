@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosirbek Portfolio</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-transform: uppercase;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Sahifaning birinchi qismi (Welcome) */
+        .welcome {
+            height: 100vh; /* Ekran balandligi bo‘yicha to‘liq qoplaydi */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Men haqimdagi bo‘lim */
+        .about {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px 40px;
+            border-radius: 10px;
+            text-align: left;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            margin: 50px auto;
+        }
+
+        /* Bo‘sh joy qo‘shish */
+        .space {
+            height: 1500px; /* Ma'lumot tugagandan keyin 1500px bo'sh joy */
+        }
+    </style>
+</head>
+<body>
+    <!-- Welcome bo‘limi (ekran markazida) -->
+    <div class="welcome">
+        WELCOME TO MY PORTFOLIO.
+    </div>
+
+    <!-- Men haqimdagi bo‘lim (skrolda pastga tushadi) -->
+    <div style="display: flex; justify-content: center;">
+        <div class="about">
+            <p><strong>Fist Name:</strong> NOSIRBEK</p>
+            <p><strong>Last Name:</strong> QARSHIYEV</p>
+            <p><strong>I WAS BORN IN:</strong> 16.09.2006</p>
+        </div>
+    </div>
+
+    <!-- Qo‘shimcha bo‘sh joy -->
+    <div class="space"></div>
+    <img src="/photo_2025-04-02_11-30-27.jpg" alt="">
+</body>
+</html>
